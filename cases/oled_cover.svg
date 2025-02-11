@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="75mm"
+   viewBox="0 0 100 75"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="oled_cover.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1089994"
+     inkscape:cx="-44.09674"
+     inkscape:cy="73.494567"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1080"
+     inkscape:window-y="429"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g118">
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.264583"
+         id="rect950"
+         height="57.150002"
+         x="0.1322915"
+         y="0.1322915"
+         width="19.049999"
+         rx="3.572" />
+      <ellipse
+         style="fill:none;stroke:#ff0000;stroke-width:0.124788"
+         id="path1130"
+         cx="3.572"
+         cy="53.577999"
+         rx="1.0376061"
+         ry="1.0376062" />
+      <ellipse
+         style="fill:none;stroke:#ff0000;stroke-width:0.124788"
+         id="path1130-3"
+         cx="15.478"
+         cy="53.577999"
+         rx="1.0376061"
+         ry="1.0376062" />
+    </g>
+    <g
+       id="g118-3"
+       transform="translate(21)">
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.264583"
+         id="rect950-6"
+         height="57.150002"
+         x="0.1322915"
+         y="0.1322915"
+         width="19.049999"
+         rx="3.572" />
+      <ellipse
+         style="fill:none;stroke:#ff0000;stroke-width:0.124788"
+         id="path1130-7"
+         cx="3.572"
+         cy="53.577999"
+         rx="1.0376061"
+         ry="1.0376062" />
+      <ellipse
+         style="fill:none;stroke:#ff0000;stroke-width:0.124788"
+         id="path1130-3-5"
+         cx="15.478"
+         cy="53.577999"
+         rx="1.0376061"
+         ry="1.0376062" />
+    </g>
+  </g>
+</svg>
