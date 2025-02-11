@@ -6,12 +6,12 @@ include <Round-Anything/polyround.scad>
 pcbx = 19.05*7; // pcb width
 pcby = 19.05*4; // pcb length
 
-inscl = 0.5; // inside clearance from pcb
+inscl = 0.2; // inside clearance from pcb
 
 inhgt = 14.5; // inside height
 
 cwt = 3.5; //case wall thickness
-cbt = 3.5; //case bottom thickness
+cbt = 2.5; //case bottom thickness
 
 module case_inside(){
     sketchPoints=[
@@ -40,8 +40,8 @@ module case_outside(){
     polyRoundExtrude(
         sketchPoints,
         inhgt + cbt,
-        r1=1.5,
-        r2=1.5,
+        r1=2.5,
+        r2=2.5,
         fn=$fn
     );
 }
@@ -62,12 +62,12 @@ module mounting_hole(x=0, y=0){
 
 module foot_hole(x=0, y=0){
     translate([x,y,-cbt-0.01]){
-        cylinder(h=0.6+0.01, d=8.6);
+        cylinder(h=1+0.01, d=8.8);
     }
 }
 
 module usbc_hole(x=0, y=0){
-    translate([x,y,5])
+    translate([x,y,7.5])
     rotate([-90,0,0])
     hull(){
         translate([3.5,0,-0.01])
@@ -96,16 +96,16 @@ module case(){
         mounting_hole(19.05*5,19.05*1);
         mounting_hole(19.05*5,19.05*3);
         
-        foot_hole(4,4);
-        foot_hole(4,pcby-4);
-        foot_hole(pcbx-4,pcby-4);
-        foot_hole(pcbx-4,4);
+        //foot_hole(4,4);
+        //foot_hole(4,pcby-4);
+        //foot_hole(pcbx-4,pcby-4);
+        //foot_hole(pcbx-4,4);
         
         trrs_hole(pcbx + inscl, 28.57);
         usbc_hole(123.15,pcby + inscl);
     }
 }
 
-
+//mirror([1,0,0])
 case();
 
